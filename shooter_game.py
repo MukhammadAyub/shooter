@@ -2,7 +2,7 @@ from pygame import *
 from random import randint
 from time import time as timer
 
-win = display.set_mode((1000, 700))
+win = display.set_mode((1200, 900))
 background = transform.scale(image.load('galaxy.jpg'), (1000, 700))
 
 mixer.init()
